@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-s+mqnj^%%g_)%9xvg*npbi!3=5asj_1&%b5)wnjh&_7_1xsfkp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '0.0.0.0']
+ALLOWED_HOSTS = ['localhost', '0.0.0.0', 'protected-woodland-36615.herokuapp.com']
 
 
 # Application definition
@@ -79,10 +79,11 @@ WSGI_APPLICATION = 'restfulapicrud.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'restfulapidb2',
-        'USER': 'calilog',
-        'PASSWORD': 'Ironmaiden2*',
-        'HOST': 'localhost',        
+        'NAME': 'd7gv0hl9pe3rc4', # 'restfulapidb2',
+        'USER': 'lnkhuowwuvbjcd', # 'calilog',
+        'PASSWORD': 'b5c539b1e95dc696c2f2a1c7094ae06807439f13677a75583777c601d2f2c9b6', # 'Ironmaiden2*',
+        'HOST': 'ec2-52-202-152-4.compute-1.amazonaws.com', # 'localhost',
+        'PORT': 5432,        
     }
 }
 
